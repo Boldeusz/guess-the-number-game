@@ -5,6 +5,8 @@
         </encoder>
     </appender>
     <logger name="org.marcin" level="DEBUG" />
+    <logger name="org.springframework" level="DEBUG" />
+
     <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
