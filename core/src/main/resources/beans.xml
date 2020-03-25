@@ -6,5 +6,11 @@
 
     <bean id="numberGenerator" class="org.marcin.NumberGeneratorImpl" />
 
+    <bean id="game" class="org.marcin.GameImpl">
+        <property name="numberGenerator" ref="numberGenerator" />
+    </bean>
+
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
+
 </beans>
 

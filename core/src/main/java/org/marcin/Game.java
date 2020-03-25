@@ -12,7 +12,7 @@ public interface Game {
     int getRemainingGuesses();
     void reset();
     void check();
-    boolean isValidNumber();
+    boolean isValidNumberRange();
     boolean isGameWon();
     boolean isGameLost();
 
