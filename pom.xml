@@ -12,13 +12,28 @@
     </modules>
     <packaging>pom</packaging>
 
+    <properties>
+        <logback.version>1.2.3</logback.version>
+        <spring.version>5.2.5.RELEASE</spring.version>
+    </properties>
+
     <dependencyManagement>
+
         <dependencies>
+            <!-- Logging -->
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.2.3</version>
+                <version>${logback.version}</version>
+
             </dependency>
+            <!-- Spring context -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
