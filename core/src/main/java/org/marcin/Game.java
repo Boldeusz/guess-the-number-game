@@ -1,7 +1,9 @@
 package org.marcin;
 
 public interface Game {
+
     int getNumber();
+
     int getGuess();
 
     void setGuess(int guess);
@@ -9,11 +11,19 @@ public interface Game {
     int getSmallest();
 
     int getBiggest();
+
     int getRemainingGuesses();
+
+    int getGuessCount();
+
     void reset();
+
     void check();
+
     boolean isValidNumberRange();
+
     boolean isGameWon();
+
     boolean isGameLost();
 
 }
