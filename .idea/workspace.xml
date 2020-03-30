@@ -2,25 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0472c1-c4d8-4e7a-bda0-e9829912e2ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/util/GameMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/marcin/util/ViewNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/util/ViewNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/marcin/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/org/marcin/util/GameMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/util/GameMappings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -214,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585567550323</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change">
+      <created>1585574740133</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585574740133</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,26 +249,26 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561309225" />
-    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585567549164">
+    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585574739303">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585567549164" />
-    <state width="1557" height="170" key="GridCell.Tab.0.bottom" timestamp="1585574005554">
+    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585574739303" />
+    <state width="1557" height="170" key="GridCell.Tab.0.bottom" timestamp="1585576153948">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585574005554" />
-    <state width="1557" height="170" key="GridCell.Tab.0.center" timestamp="1585574005553">
+    <state width="1557" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585576153948" />
+    <state width="1557" height="170" key="GridCell.Tab.0.center" timestamp="1585576153948">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585574005553" />
-    <state width="1557" height="170" key="GridCell.Tab.0.left" timestamp="1585574005553">
+    <state width="1557" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585576153948" />
+    <state width="1557" height="170" key="GridCell.Tab.0.left" timestamp="1585576153948">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585574005553" />
-    <state width="1557" height="170" key="GridCell.Tab.0.right" timestamp="1585574005554">
+    <state width="1557" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585576153948" />
+    <state width="1557" height="170" key="GridCell.Tab.0.right" timestamp="1585576153948">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585574005554" />
+    <state width="1557" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585576153948" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585147556198">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -275,10 +289,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2221" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585157097455" />
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585567551899">
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585574750342">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585567551899" />
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585574750342" />
     <state x="2536" y="207" key="chooseDestDirectoryDialog" timestamp="1585399584829">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
