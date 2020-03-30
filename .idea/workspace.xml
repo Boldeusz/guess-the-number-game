@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0472c1-c4d8-4e7a-bda0-e9829912e2ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/WebMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/marcin/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +50,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/console/src/main/java/org/marcin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\web\src\main\resources" />
       <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\core\src\main\resources" />
     </key>
   </component>
@@ -58,7 +67,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.WebMain">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.marcin.Main" />
       <module name="console" />
@@ -85,8 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.marcin.WebMain" />
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.marcin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -171,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585399864160</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change">
+      <created>1585561509541</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585561509541</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,6 +210,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2312" y="88" key="#Project_Structure" timestamp="1585562129117">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2312" y="88" key="#Project_Structure/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562129117" />
     <state x="2525" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585144447575">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -188,26 +222,26 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561309225" />
-    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585399862501">
+    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585561508342">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399862501" />
-    <state width="1557" height="143" key="GridCell.Tab.0.bottom" timestamp="1585399912706">
+    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561508342" />
+    <state width="1557" height="143" key="GridCell.Tab.0.bottom" timestamp="1585562524482">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399912706" />
-    <state width="1557" height="143" key="GridCell.Tab.0.center" timestamp="1585399912706">
+    <state width="1557" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562524482" />
+    <state width="1557" height="143" key="GridCell.Tab.0.center" timestamp="1585562524482">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="143" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399912706" />
-    <state width="1557" height="143" key="GridCell.Tab.0.left" timestamp="1585399912706">
+    <state width="1557" height="143" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562524482" />
+    <state width="1557" height="143" key="GridCell.Tab.0.left" timestamp="1585562524482">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="143" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399912706" />
-    <state width="1557" height="143" key="GridCell.Tab.0.right" timestamp="1585399912706">
+    <state width="1557" height="143" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562524482" />
+    <state width="1557" height="143" key="GridCell.Tab.0.right" timestamp="1585562524482">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="143" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399912706" />
+    <state width="1557" height="143" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562524482" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585147556198">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -228,10 +262,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2221" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585157097455" />
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585399865702">
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585561511066">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399865702" />
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561511066" />
     <state x="2536" y="207" key="chooseDestDirectoryDialog" timestamp="1585399584829">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -240,13 +274,13 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2416" y="253" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585299404411" />
-    <state x="2102" y="125" key="new project wizard" timestamp="1585396838886">
+    <state x="2102" y="125" key="new project wizard" timestamp="1585561878618">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2102" y="125" key="new project wizard/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585396838886" />
-    <state x="2376" y="195" width="672" height="677" key="run.anything.popup" timestamp="1585395347320">
+    <state x="2102" y="125" key="new project wizard/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561878618" />
+    <state x="2376" y="195" width="672" height="677" key="run.anything.popup" timestamp="1585562481042">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2376" y="195" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585395347320" />
+    <state x="2376" y="195" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562481042" />
   </component>
 </project>
