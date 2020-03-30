@@ -9,10 +9,14 @@
     <h1>Welcome to Guess the Number Game</h1>
     <h3>
         <a th:href="@{__${T(org.marcin.util.GameMappings).PLAY}__}"
-           th:text="Play">
+           th:text="Play"
+            href="play.html">
             Click to Play
         </a>
     </h3>
+    <h2>
+        <footer th:replace="~{fragments/footer :: footFragment}"></footer>
+    </h2>
 </div>
 
 
