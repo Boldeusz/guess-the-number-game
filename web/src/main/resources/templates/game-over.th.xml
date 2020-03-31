@@ -1,11 +1,7 @@
-<thlogic >
+<thlogic>
     <attr sel="#headId" th:replace="~{fragments/head :: headFragment}"/>
-    <attr sel="#game-title" th:text="#{game.title}"/>
-    <attr sel="#main-message" th:text="${__${T(org.marcin.util.AttributeNames).MAIN_MESSAGE}__}"/>
     <attr sel="#result-message" th:text="${__${T(org.marcin.util.AttributeNames).RESULT_MESSAGE}__}"/>
-    <attr sel="#game-form" th:action="@{__${T(org.marcin.util.GameMappings).PLAY}__}"/>
+    <attr sel="#restart" th:href="@{__${T(org.marcin.util.GameMappings).RESTART}__}"/>
+    <attr sel="#home" th:href="@{__${T(org.marcin.util.GameMappings).HOME}__}"/>
     <attr sel="#footerId" th:replace="~{fragments/footer :: footFragment}"/>
-
-
-
 </thlogic>

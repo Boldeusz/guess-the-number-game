@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0472c1-c4d8-4e7a-bda0-e9829912e2ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/util/thymeleaf/DecoupledLogicSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/messages_pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.th.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/console/src/main/java/org/marcin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources/templates/fragments" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,8 +69,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\web\src\main\resources\templates\fragments" />
       <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\web\src\main\resources\templates" />
+      <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\web\src\main\resources\templates\fragments" />
       <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\web\src\main\resources" />
       <recent name="C:\Users\Marcin\IdeaProjects\guess-the-number-game\core\src\main\resources" />
     </key>
@@ -240,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585577836792</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="change">
+      <created>1585592113628</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585592113628</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,26 +277,26 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561309225" />
-    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585592079200">
+    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585592112359">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592079200" />
-    <state width="1557" height="170" key="GridCell.Tab.0.bottom" timestamp="1585592079237">
+    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592112359" />
+    <state width="1557" height="109" key="GridCell.Tab.0.bottom" timestamp="1585596468475">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592079237" />
-    <state width="1557" height="170" key="GridCell.Tab.0.center" timestamp="1585592079237">
+    <state width="1557" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585596468475" />
+    <state width="1557" height="109" key="GridCell.Tab.0.center" timestamp="1585596468475">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592079237" />
-    <state width="1557" height="170" key="GridCell.Tab.0.left" timestamp="1585592079236">
+    <state width="1557" height="109" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585596468475" />
+    <state width="1557" height="109" key="GridCell.Tab.0.left" timestamp="1585596468475">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592079236" />
-    <state width="1557" height="170" key="GridCell.Tab.0.right" timestamp="1585592079237">
+    <state width="1557" height="109" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585596468475" />
+    <state width="1557" height="109" key="GridCell.Tab.0.right" timestamp="1585596468475">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="170" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592079237" />
+    <state width="1557" height="109" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585596468475" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585147556198">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -301,18 +317,18 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2221" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585157097455" />
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585577838360">
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585592116572">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585577838360" />
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585592116572" />
     <state x="2536" y="207" key="chooseDestDirectoryDialog" timestamp="1585399584829">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2536" y="207" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585399584829" />
-    <state x="2416" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1585590141484">
+    <state x="2416" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1585644098639">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2416" y="253" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585590141484" />
+    <state x="2416" y="253" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585644098639" />
     <state x="2102" y="125" key="new project wizard" timestamp="1585561878618">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -321,9 +337,9 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2376" y="195" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585577634682" />
-    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585566937553">
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585593587282">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585566937553" />
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585593587282" />
   </component>
 </project>

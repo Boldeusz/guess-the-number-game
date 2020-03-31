@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head :: headFragment}">
+<html lang="en" >
+<head id="headId">
     <meta charset="UTF-8">
     <title>Game Finished</title>
 </head>
@@ -8,21 +8,21 @@
 <div align="center">
     <h1>Guess the Number Game</h1>
     <h2>Game Over</h2>
-    <h3 th:text="${__${T(org.marcin.util.AttributeNames).RESULT_MESSAGE}__}">Result Message Content</h3>
+    <h3 id="result-message">Result Message Content</h3>
     <h3>
-        <a th:href="@{__${T(org.marcin.util.GameMappings).RESTART}__}">
+        <a id="restart">
             Play Again
         </a>
     </h3>
     <h3>
-        <a th:href="@{__${T(org.marcin.util.GameMappings).HOME}__}">
+        <a id="home">
             Home
         </a>
     </h3>
 
 
 
-    <footer th:replace="~{fragments/footer :: footFragment}">
+    <footer id="footerId">
         <p>Created by Marcin org.marcin</p>
     </footer>
 </div>
