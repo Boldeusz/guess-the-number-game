@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0472c1-c4d8-4e7a-bda0-e9829912e2ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_pl.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/footer.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.th.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585646565948</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change">
+      <created>1585648674694</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585648674694</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -283,26 +286,26 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561309225" />
-    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585646564604">
+    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585648673623">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585646564604" />
-    <state width="1557" height="109" key="GridCell.Tab.0.bottom" timestamp="1585648332597">
+    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648673623" />
+    <state width="1557" height="109" key="GridCell.Tab.0.bottom" timestamp="1585649667957">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648332597" />
-    <state width="1557" height="109" key="GridCell.Tab.0.center" timestamp="1585648332597">
+    <state width="1557" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585649667957" />
+    <state width="1557" height="109" key="GridCell.Tab.0.center" timestamp="1585649667956">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="109" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648332597" />
-    <state width="1557" height="109" key="GridCell.Tab.0.left" timestamp="1585648332597">
+    <state width="1557" height="109" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585649667956" />
+    <state width="1557" height="109" key="GridCell.Tab.0.left" timestamp="1585649667956">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="109" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648332597" />
-    <state width="1557" height="109" key="GridCell.Tab.0.right" timestamp="1585648332597">
+    <state width="1557" height="109" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585649667956" />
+    <state width="1557" height="109" key="GridCell.Tab.0.right" timestamp="1585649667957">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="109" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648332597" />
+    <state width="1557" height="109" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585649667957" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1585147556198">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -323,10 +326,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2221" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585646888353" />
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585646567837">
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585648676165">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585646567837" />
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648676165" />
     <state x="2536" y="207" key="chooseDestDirectoryDialog" timestamp="1585399584829">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -339,10 +342,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2102" y="125" key="new project wizard/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561878618" />
-    <state x="2376" y="195" width="672" height="677" key="run.anything.popup" timestamp="1585648321554">
+    <state x="2376" y="195" width="672" height="677" key="run.anything.popup" timestamp="1585649658058">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2376" y="195" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585648321554" />
+    <state x="2376" y="195" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585649658058" />
     <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585593587282">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
