@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#langChoose" th:fragment="langChooseFragment"/>
+    <attr sel="#choose-language" th:text="#{game.choose.language}"/>
+    <attr sel="#choose-select" th:text="#{game.choose}"/>
+    <attr sel="#choose" th:value="#{game.choose}"/>
+</thlogic>

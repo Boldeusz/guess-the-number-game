@@ -3,6 +3,8 @@
     <attr sel="#welcome" th:text="#{game.welcome}"/>
     <attr sel="#play-game" th:href="@{__${T(org.marcin.util.GameMappings).PLAY}__}"
           th:text="#{game.play}"/>
+    <attr sel="#lang-form" th:action="@{__${T(org.marcin.util.GameMappings).HOME}__}"/>
+    <attr sel="#lang-choose" th:replace="~{fragments/lang-form :: langChooseFragment}"/>
     <attr sel="#footerId" th:replace="~{fragments/footer :: footFragment}"/>
 
 </thlogic>

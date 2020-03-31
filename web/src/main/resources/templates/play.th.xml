@@ -7,6 +7,8 @@
     <attr sel="#enter-guess" th:text="#{game.enter.guess}"/>
     <attr sel="#submit" th:value="#{game.submit}"/>
     <attr sel="#footerId" th:replace="~{fragments/footer :: footFragment}"/>
+    <attr sel="#lang-choose" th:replace="~{fragments/lang-form :: langChooseFragment}"/>
+    <attr sel="#lang-form" th:action="@{__${T(org.marcin.util.GameMappings).PLAY}__}" />
 
 
 

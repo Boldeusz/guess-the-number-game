@@ -9,14 +9,28 @@
     <h1 id="game-title">Guess the Number Game</h1>
     <h3 id="main-message">Main Message Content</h3>
     <h3 id="result-message">Result Message Content</h3>
+        <div style="margin: 10px">
+            <form id="game-form"
+                 action="play"
+                 method="post">
+                <label id="enter-guess" for="guess">Enter your guess</label>
+                 <input id="guess" type="number" name="guess"/>
+                <input id="submit" type="submit" value="Submit"/>
+            </form>
+        </div>
+    <div style="margin: 10px">
+        <form id="lang-form">
+            <div id="lang-choose">
+                <label>Choose language</label>
+                <select>
+                    <option>POL</option>
+                    <option>ENG</option>
 
-    <form id="game-form"
-          action="play"
-          method="post">
-        <label id="enter-guess" for="guess">Enter your guess</label>
-        <input id="guess" type="number" name="guess"/>
-        <input id="submit" type="submit" value="Submit"/>
-    </form>
+                </select>
+                <input id="choose" type="submit" value="Choose"/>
+            </div>
+        </form>
+    </div>
 
     <footer id="footerId">
         <p>Created by Marcin org.marcin</p>
