@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0472c1-c4d8-4e7a-bda0-e9829912e2ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/org/marcin/interceptor/RequestInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/marcin/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/marcin/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585651513285</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="change">
+      <created>1585653061376</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585653061376</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,18 +293,18 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2312" y="88" key="#Project_Structure/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585562129117" />
-    <state x="2525" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585590919285">
+    <state x="2525" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585655535864">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2525" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585590919285" />
+    <state x="2525" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585655535864" />
     <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585561309225">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585561309225" />
-    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585651512273">
+    <state x="2317" y="24" key="CommitChangelistDialog2" timestamp="1585653060570">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585651512273" />
+    <state x="2317" y="24" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585653060570" />
     <state width="1557" height="109" key="GridCell.Tab.0.bottom" timestamp="1585652983666">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -337,10 +341,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2221" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585646888353" />
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585651515470">
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1585653066259">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585651515470" />
+    <state x="2312" y="162" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585653066259" />
     <state x="2536" y="207" key="chooseDestDirectoryDialog" timestamp="1585399584829">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -357,9 +361,9 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2376" y="195" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585652836695" />
-    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585650571238">
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585656088704">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585650571238" />
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1585656088704" />
   </component>
 </project>
