@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <!--<html lang="en" xmlns:th="http://www.thymeleaf.org"> -->
-<html lang="en">
-<head id="headId">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
     <meta charset="UTF-8">
     <title>Title content</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
 </head>
-<body>
-<div align="center">
-    <h1 id="welcome">Welcome to Guess the Number Game</h1>
+<body  >
+<div  align="center">
+    <h1 class="bongo">Welcome to Guess the Number Game</h1>
     <h3>
-        <a id="play-game"
+        <a  th:href="@{__${T(org.marcin.util.GameMappings).PLAY}__}">Nacisnij mnie!!!!!!!!!</a>
 
-            href="play.html">
-            Click to Play
-        </a>
     </h3>
-    <form id="lang-form">
-        <div id="lang-choose">
-            <label>Choose language</label>
-            <select>
-                <option value="pl">POL</option>
-                <option value="en">ENG</option>
+    <a  th:href="@{nowy}">Nacisnij mnie!!!!!!!!!</a>
+    <p id="demo3">A Paragraph.</p>
 
-            </select>
-            <input id="choose" type="submit" value="Choose"/>
-        </div>
-    </form>
-    <h2>
-        <footer id="footerId"></footer>
-    </h2>
-</div>
+    <button type="button" onclick="myFunction()">Try it now</button>
+    <button type="button" onclick="alert2()">Try it now</button>
+    <div >
+        <h1>
+            <!-- include image from static resources -->
+            <!--  <img th:src="@{/img/logo.png}" alt="error logo"/> -->
+              Adding Static Resources (css, JavaScript, Images) to Thymeleaf
+          </h1>
+      </div>
+      <form>
+          <div>
+              <label>Choose language</label>
+              <select>
+                  <option value="pl">POL</option>
+                  <option value="en">ENG</option>
 
+              </select>
 
-</body>
-</html>
+          </div>
+      </form>
+      <h2>
+          <footer></footer>
+      </h2>
+  </div>
+
+<script type="text/javascript" th:src="@{/js/jsfile.js}"></script>
+  </body>
+  </html>

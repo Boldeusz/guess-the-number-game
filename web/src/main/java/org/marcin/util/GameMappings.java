@@ -7,6 +7,8 @@ public final class GameMappings {
     public static final String REDIRECT_PLAY = "redirect:/" + PLAY;
     public static final String RESTART = "restart";
     public static final String HOME = "/";
+    public static final String NOWY = "nowy";
+    public static final String YES = "yes";
 
 
     // == constructors ==
